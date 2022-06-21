@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FirstFragment"
-    android:background="@color/cardview_dark_background">
+    android:background="@color/white">
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,8 +13,14 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="200dp"
         android:textSize="200dp"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/purple_200"
         android:text="1" />
 
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/caminho"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:text="Caminho 3"/>
 </FrameLayout>
